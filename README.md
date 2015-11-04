@@ -13,7 +13,7 @@ http://www.freelists.org/post/nanomsg/a-stupid-load-balancing-question
 
 Here is the pattern I got in a C++ simple program:
 
-```
+``` c++
 //
 // nanomsg simple nn_device example for load balancing a tcp server.
 //
