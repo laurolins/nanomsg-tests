@@ -1,3 +1,19 @@
+# nanomsg-tests
+
+Small experiments to test the nanomsg library. Here is an experiment
+that I wanted to run which is analogous to the multithread dealer/router
+example in ZeroMQ:
+
+http://zguide.zeromq.org/page:all#Multithreading-with-ZeroMQ
+
+I tried to reconstruct what I think is the `nanomsg` way of the example
+above following the hints from this conversation:
+
+http://www.freelists.org/post/nanomsg/a-stupid-load-balancing-question
+
+Here is the pattern I got in a C++ simple program:
+
+```
 //
 // nanomsg simple nn_device example for load balancing a tcp server.
 //
@@ -76,3 +92,4 @@ int main() {
     return 0;
 }
 
+```
