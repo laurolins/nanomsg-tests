@@ -1,8 +1,8 @@
-# nanomsg-tests
+# nanomsg-tests - experiments to test the nanomsg library. 
 
-Small experiments to test the nanomsg library. Here is an experiment
-that I wanted to run which is analogous to the multithread dealer/router
-example in ZeroMQ:
+Here is a nanomsg experiment that I wanted to run, but couldn't find
+on the web. It is the multithreaded dealer/router example explained
+in the `ZeroMQ` guide:
 
 http://zguide.zeromq.org/page:all#Multithreading-with-ZeroMQ
 
@@ -11,7 +11,7 @@ above following the hints from this conversation:
 
 http://www.freelists.org/post/nanomsg/a-stupid-load-balancing-question
 
-Here is the pattern I got in a C++ simple program:
+Here is what I got in a simple C++ program:
 
 ``` c++
 //
