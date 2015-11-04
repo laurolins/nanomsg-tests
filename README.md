@@ -1,6 +1,6 @@
-# nanomsg-tests - experiments to test the nanomsg library. 
+# nanomsg-tests
 
-Here is a nanomsg experiment that I wanted to run, but couldn't find
+Here is a [nanomsg](http://nanomsg.org) experiment that I wanted to run, but couldn't find
 on the web. It is the multithreaded dealer/router example explained
 in the `ZeroMQ` guide:
 
