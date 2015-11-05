@@ -42,7 +42,7 @@ Here is what I got in a simple C++ program:
 #include <nanomsg/nn.h>
 #include <nanomsg/reqrep.h>
 
-// The function we want to execute on the new thread.
+// worker thread to process requests in "parallel"
 void worker(int worker_id)
 {
     auto socket   = nn_socket(AF_SP, NN_REP); 
